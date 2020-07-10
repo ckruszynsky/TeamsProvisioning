@@ -1,34 +1,33 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
-    "contentVersion": "1.0.0.0",
-    "parameters": {
-      "appName": {
-        "value": "TeamsProvisioningProd"
-      },
-      "repoUrl": {
-        "value": "https://github.com/BobGerman/TeamsProvisioning.git"
-      },
-      "branch": {
-        "value": "prod"
-      },
-      "TENANT": {
-        "value": "a25d4ef1-c73a-4dc1-bdb1-9a342260f216"
-      },
-      "TENANT_NAME": {
-        "value": "bgtest18"
-      },
-      "CLIENT_ID": {
-        "value": "3b34741d-68fc-4465-b25e-d6fba3de701d"
-      },
-      "CLIENT_SECRET": {
-        "value": "@Microsoft.KeyVault(SecretUri=https://teamsprovisioning.vault.azure.net/secrets/client-secret/cd56ab45a33e47bfb0b091c75b99099a)"
-      },
-      "TEMPLATE_SITE_URL": {
-        "value": "/sites/TeamsProvisioning"
-      },
-      "TEMPLATE_LIB_NAME": {
-        "value": "Templates"
-      }
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "appName": {
+      "value": "StgTurnerIndTeamsProvisioningProd"
+    },
+    "repoUrl": {
+      "value": "https://github.com/ckruszynsky/TeamsProvisioning.git"
+    },
+    "branch": {
+      "value": "prod"
+    },
+    "TENANT": {
+      "value": "760aa7d2-1eef-4887-851e-241d296cbced"
+    },
+    "TENANT_NAME": {
+      "value": "stgturnerind"
+    },
+    "CLIENT_ID": {
+      "value": "d40fc91b-1b0c-4591-95ec-0300ba0e6b2d"
+    },
+    "CLIENT_SECRET": {
+      "value": "@Microsoft.KeyVault(SecretUri=https://team-provisioning-vault.vault.azure.net/secrets/Team-Provisioning-Secret/d2fdab0fd42e4131a2510e3f105a81d3)"
+    },
+    "TEMPLATE_SITE_URL": {
+      "value": "/sites/FlightAdmin"
+    },
+    "TEMPLATE_LIB_NAME": {
+      "value": "Templates"
     }
   }
-  
+}
